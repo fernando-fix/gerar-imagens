@@ -22,6 +22,16 @@ r_height.addEventListener('mousemove', function () {
     h_height.value = r_height.value;
 });
 
+
+//for cellphone and tablet
+r_width.addEventListener('change', function () {
+    h_width.value = r_width.value;
+});
+
+r_height.addEventListener('change', function () {
+    h_height.value = r_height.value;
+});
+
 //functions
 function generate() {
     window.open(`https://picsum.photos/${h_width.value}/${h_height.value}`, '_blank');
