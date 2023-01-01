@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Gerar imagens</title>
+</head>
+
+<body>
+    <h1>Gerador de imagens</h1>
+    <hr>
+    <h2>Width</h2>
+    <input type="number" id="h_width" value="200" min="200" max="2000" step="20"> px
+    <input type="range" id="r_width" value="200" min="200" max="2000" step="20">
+
+    <h2>Height</h2>
+    <input type="number" id="h_height" value="200" min="200" max="2000" step="20"> px
+    <input type="range" id="r_height" value="200" min="200" max="2000" step="20">
+
+    <br>
+    <br>
+
+    <button onclick="generate()">Gerar imagem</button>
+
+    <br>
+    <br>
+    <hr>
+
+    <footer>
+        <h3>Este site utiliza um serviço externo da página <a href="https://picsum.photos/"
+                target="_blank">https://picsum.photos/</a></h3>
+
+        <script src="assets/js/script.js"></script>
+    </footer>
+    <!-- Aviso: Este site não utiliza css, fique a vontade para baixar e implementar, tirar as tags <br> ou melhorar a semântica :) -->
+</body>
+
+</html>
