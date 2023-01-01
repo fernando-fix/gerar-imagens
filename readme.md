@@ -25,4 +25,4 @@ Para utilizar este site selecione o width e o height através do input ou da bar
 A imagem com as especificações que você escolheu irá abrir em uma nova aba.
 ## Acesso ao site
 
-[Acesso ao site](https://gerar-imagens.github.io/fernando-fix/)
+[Acesso ao site](https://fernando-fix.github.io/gerar-imagens/)
